@@ -5,8 +5,8 @@
 //  Created by Даниил  on 11.10.2024.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct TimeApp: App {
