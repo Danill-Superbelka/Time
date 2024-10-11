@@ -5,14 +5,16 @@
 //  Created by Даниил  on 11.10.2024.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct TimeApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            TimeEntry.self,
+            GlobalTimer.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +27,7 @@ struct TimeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabBarView()
         }
         .modelContainer(sharedModelContainer)
     }

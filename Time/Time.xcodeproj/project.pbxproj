@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A518C6B42CE79A2F00C9A9FC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6B32CE79A2F00C9A9FC /* TestView.swift */; };
+		A518C6B62CEB2EBF00C9A9FC /* CalendarScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6B52CEB2EBF00C9A9FC /* CalendarScreen.swift */; };
+		A518C6B82CEB2ED500C9A9FC /* StatsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6B72CEB2ED500C9A9FC /* StatsScreen.swift */; };
+		A518C6BA2CEB2EDE00C9A9FC /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6B92CEB2EDE00C9A9FC /* SettingsScreen.swift */; };
+		A518C6BE2CEB301F00C9A9FC /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6BD2CEB301F00C9A9FC /* TabBarItems.swift */; };
+		A518C6C22CEB4AB600C9A9FC /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6C12CEB4AB600C9A9FC /* TabShape.swift */; };
+		A518C6C42CEB4C9E00C9A9FC /* TabPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6C32CEB4C9E00C9A9FC /* TabPosition.swift */; };
+		A518C6C62CEB690E00C9A9FC /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6C52CEB690E00C9A9FC /* MainTabBarView.swift */; };
+		A518C6C82CEC83AD00C9A9FC /* AddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6C72CEC83AD00C9A9FC /* AddScreen.swift */; };
+		A518C6CB2CEC956100C9A9FC /* TabViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A518C6CA2CEC956100C9A9FC /* TabViewExtension.swift */; };
 		A5D7F0172CB972D5000540E1 /* TimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0162CB972D5000540E1 /* TimeApp.swift */; };
-		A5D7F0192CB972D5000540E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0182CB972D5000540E1 /* ContentView.swift */; };
+		A5D7F0192CB972D5000540E1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0182CB972D5000540E1 /* HomeScreen.swift */; };
 		A5D7F01B2CB972D5000540E1 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F01A2CB972D5000540E1 /* Item.swift */; };
 		A5D7F01D2CB972D8000540E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D7F01C2CB972D8000540E1 /* Assets.xcassets */; };
 		A5D7F0202CB972D8000540E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D7F01F2CB972D8000540E1 /* Preview Assets.xcassets */; };
 		A5D7F02A2CB972D9000540E1 /* TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0292CB972D9000540E1 /* TimeTests.swift */; };
 		A5D7F0342CB972D9000540E1 /* TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0332CB972D9000540E1 /* TimeUITests.swift */; };
 		A5D7F0362CB972D9000540E1 /* TimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0352CB972D9000540E1 /* TimeUITestsLaunchTests.swift */; };
+		A5D7F0482CB97D30000540E1 /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0472CB97D30000540E1 /* TimeEntry.swift */; };
+		A5D7F04A2CB97D3D000540E1 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0492CB97D3D000540E1 /* Tag.swift */; };
+		A5D7F04C2CB97D88000540E1 /* TimeEntryInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F04B2CB97D88000540E1 /* TimeEntryInterval.swift */; };
+		A5D7F04E2CB97DDC000540E1 /* GlobalTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F04D2CB97DDC000540E1 /* GlobalTimer.swift */; };
+		A5D7F0552CBD7EE8000540E1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0542CBD7EE8000540E1 /* WelcomeView.swift */; };
+		A5D7F0572CBEC459000540E1 /* HomeTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7F0562CBEC459000540E1 /* HomeTimerView.swift */; };
+		A5D7F0592CBED1E5000540E1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A5D7F0582CBED1E5000540E1 /* Localizable.xcstrings */; };
+		A5EB139A2CC7EB4200B8DCB2 /* DateServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB13992CC7EB4100B8DCB2 /* DateServices.swift */; };
+		A5EB139D2CC7F91C00B8DCB2 /* StopWatchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB139C2CC7F91C00B8DCB2 /* StopWatchMainView.swift */; };
+		A5EB139F2CC7F93D00B8DCB2 /* StopWatchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EB139E2CC7F93D00B8DCB2 /* StopWatchHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +55,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A518C6B32CE79A2F00C9A9FC /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		A518C6B52CEB2EBF00C9A9FC /* CalendarScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarScreen.swift; sourceTree = "<group>"; };
+		A518C6B72CEB2ED500C9A9FC /* StatsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsScreen.swift; sourceTree = "<group>"; };
+		A518C6B92CEB2EDE00C9A9FC /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		A518C6BD2CEB301F00C9A9FC /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
+		A518C6C12CEB4AB600C9A9FC /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		A518C6C32CEB4C9E00C9A9FC /* TabPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPosition.swift; sourceTree = "<group>"; };
+		A518C6C52CEB690E00C9A9FC /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		A518C6C72CEC83AD00C9A9FC /* AddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreen.swift; sourceTree = "<group>"; };
+		A518C6CA2CEC956100C9A9FC /* TabViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewExtension.swift; sourceTree = "<group>"; };
 		A5D7F0132CB972D5000540E1 /* Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Time.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D7F0162CB972D5000540E1 /* TimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeApp.swift; sourceTree = "<group>"; };
-		A5D7F0182CB972D5000540E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A5D7F0182CB972D5000540E1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		A5D7F01A2CB972D5000540E1 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		A5D7F01C2CB972D8000540E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D7F01F2CB972D8000540E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +76,16 @@
 		A5D7F02F2CB972D9000540E1 /* TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D7F0332CB972D9000540E1 /* TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUITests.swift; sourceTree = "<group>"; };
 		A5D7F0352CB972D9000540E1 /* TimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5D7F0472CB97D30000540E1 /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		A5D7F0492CB97D3D000540E1 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		A5D7F04B2CB97D88000540E1 /* TimeEntryInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntryInterval.swift; sourceTree = "<group>"; };
+		A5D7F04D2CB97DDC000540E1 /* GlobalTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTimer.swift; sourceTree = "<group>"; };
+		A5D7F0542CBD7EE8000540E1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A5D7F0562CBEC459000540E1 /* HomeTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTimerView.swift; sourceTree = "<group>"; };
+		A5D7F0582CBED1E5000540E1 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		A5EB13992CC7EB4100B8DCB2 /* DateServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateServices.swift; sourceTree = "<group>"; };
+		A5EB139C2CC7F91C00B8DCB2 /* StopWatchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchMainView.swift; sourceTree = "<group>"; };
+		A5EB139E2CC7F93D00B8DCB2 /* StopWatchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +113,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A518C6BB2CEB2FFB00C9A9FC /* SystemsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A518C6BC2CEB300A00C9A9FC /* TabBar */,
+			);
+			path = SystemsDetail;
+			sourceTree = "<group>";
+		};
+		A518C6BC2CEB300A00C9A9FC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A518C6BD2CEB301F00C9A9FC /* TabBarItems.swift */,
+				A518C6C12CEB4AB600C9A9FC /* TabShape.swift */,
+				A518C6C32CEB4C9E00C9A9FC /* TabPosition.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A518C6C92CEC953E00C9A9FC /* SystemExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A518C6CA2CEC956100C9A9FC /* TabViewExtension.swift */,
+			);
+			path = SystemExtension;
+			sourceTree = "<group>";
+		};
 		A5D7F00A2CB972D5000540E1 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +162,17 @@
 		A5D7F0152CB972D5000540E1 /* Time */ = {
 			isa = PBXGroup;
 			children = (
+				A518C6C92CEC953E00C9A9FC /* SystemExtension */,
+				A518C6BB2CEB2FFB00C9A9FC /* SystemsDetail */,
+				A5EB13982CC7EB2700B8DCB2 /* Helper Services */,
+				A5D7F0512CBD7EB0000540E1 /* Views */,
+				A5D7F04F2CBD7E59000540E1 /* Screens */,
+				A5D7F0462CB97D25000540E1 /* Models */,
 				A5D7F0162CB972D5000540E1 /* TimeApp.swift */,
-				A5D7F0182CB972D5000540E1 /* ContentView.swift */,
 				A5D7F01A2CB972D5000540E1 /* Item.swift */,
 				A5D7F01C2CB972D8000540E1 /* Assets.xcassets */,
 				A5D7F01E2CB972D8000540E1 /* Preview Content */,
+				A5D7F0582CBED1E5000540E1 /* Localizable.xcstrings */,
 			);
 			path = Time;
 			sourceTree = "<group>";
@@ -130,6 +202,58 @@
 			path = TimeUITests;
 			sourceTree = "<group>";
 		};
+		A5D7F0462CB97D25000540E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5D7F0472CB97D30000540E1 /* TimeEntry.swift */,
+				A5D7F0492CB97D3D000540E1 /* Tag.swift */,
+				A5D7F04B2CB97D88000540E1 /* TimeEntryInterval.swift */,
+				A5D7F04D2CB97DDC000540E1 /* GlobalTimer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5D7F04F2CBD7E59000540E1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A5D7F0182CB972D5000540E1 /* HomeScreen.swift */,
+				A518C6B32CE79A2F00C9A9FC /* TestView.swift */,
+				A518C6B52CEB2EBF00C9A9FC /* CalendarScreen.swift */,
+				A518C6B72CEB2ED500C9A9FC /* StatsScreen.swift */,
+				A518C6B92CEB2EDE00C9A9FC /* SettingsScreen.swift */,
+				A518C6C52CEB690E00C9A9FC /* MainTabBarView.swift */,
+				A518C6C72CEC83AD00C9A9FC /* AddScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A5D7F0512CBD7EB0000540E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB139B2CC7F90300B8DCB2 /* StopwatchView */,
+				A5D7F0542CBD7EE8000540E1 /* WelcomeView.swift */,
+				A5D7F0562CBEC459000540E1 /* HomeTimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5EB13982CC7EB2700B8DCB2 /* Helper Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB13992CC7EB4100B8DCB2 /* DateServices.swift */,
+			);
+			path = "Helper Services";
+			sourceTree = "<group>";
+		};
+		A5EB139B2CC7F90300B8DCB2 /* StopwatchView */ = {
+			isa = PBXGroup;
+			children = (
+				A5EB139C2CC7F91C00B8DCB2 /* StopWatchMainView.swift */,
+				A5EB139E2CC7F93D00B8DCB2 /* StopWatchHeaderView.swift */,
+			);
+			path = StopwatchView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +264,8 @@
 				A5D7F00F2CB972D5000540E1 /* Sources */,
 				A5D7F0102CB972D5000540E1 /* Frameworks */,
 				A5D7F0112CB972D5000540E1 /* Resources */,
+				A5D7F0422CB97344000540E1 /* ShellScript */,
+				A5D7F0432CB97594000540E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -216,6 +342,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = A5D7F00A2CB972D5000540E1;
 			productRefGroup = A5D7F0142CB972D5000540E1 /* Products */;
@@ -236,6 +363,7 @@
 			files = (
 				A5D7F0202CB972D8000540E1 /* Preview Assets.xcassets in Resources */,
 				A5D7F01D2CB972D8000540E1 /* Assets.xcassets in Resources */,
+				A5D7F0592CBED1E5000540E1 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,14 +383,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5D7F0422CB97344000540E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#if [[ \"$(uname -m)\" == arm64 ]]; then\n#    export PATH=\"/opt/homebrew/bin:$PATH\"\n#fi\n#\n#if which swiftlint > /dev/null; then\n#  swiftlint\n#else\n#  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi\n";
+		};
+		A5D7F0432CB97594000540E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if [[ \"$(uname -m)\" == arm64 ]]; then\n#    export PATH=\"/opt/homebrew/bin:$PATH\"\n#fi\n#\n#if which swiftformat >/dev/null; then\n#  swiftformat .\n#else\n#  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\n#fi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5D7F00F2CB972D5000540E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D7F0192CB972D5000540E1 /* ContentView.swift in Sources */,
+				A518C6BA2CEB2EDE00C9A9FC /* SettingsScreen.swift in Sources */,
+				A5D7F0192CB972D5000540E1 /* HomeScreen.swift in Sources */,
+				A518C6BE2CEB301F00C9A9FC /* TabBarItems.swift in Sources */,
+				A5EB139F2CC7F93D00B8DCB2 /* StopWatchHeaderView.swift in Sources */,
+				A518C6C42CEB4C9E00C9A9FC /* TabPosition.swift in Sources */,
+				A5D7F0572CBEC459000540E1 /* HomeTimerView.swift in Sources */,
+				A5D7F04E2CB97DDC000540E1 /* GlobalTimer.swift in Sources */,
+				A5EB139A2CC7EB4200B8DCB2 /* DateServices.swift in Sources */,
+				A5EB139D2CC7F91C00B8DCB2 /* StopWatchMainView.swift in Sources */,
+				A518C6B82CEB2ED500C9A9FC /* StatsScreen.swift in Sources */,
 				A5D7F01B2CB972D5000540E1 /* Item.swift in Sources */,
+				A5D7F0552CBD7EE8000540E1 /* WelcomeView.swift in Sources */,
+				A518C6CB2CEC956100C9A9FC /* TabViewExtension.swift in Sources */,
+				A518C6B62CEB2EBF00C9A9FC /* CalendarScreen.swift in Sources */,
+				A5D7F04A2CB97D3D000540E1 /* Tag.swift in Sources */,
+				A518C6C22CEB4AB600C9A9FC /* TabShape.swift in Sources */,
+				A518C6C62CEB690E00C9A9FC /* MainTabBarView.swift in Sources */,
 				A5D7F0172CB972D5000540E1 /* TimeApp.swift in Sources */,
+				A5D7F04C2CB97D88000540E1 /* TimeEntryInterval.swift in Sources */,
+				A518C6B42CE79A2F00C9A9FC /* TestView.swift in Sources */,
+				A5D7F0482CB97D30000540E1 /* TimeEntry.swift in Sources */,
+				A518C6C82CEC83AD00C9A9FC /* AddScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +614,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
 				DEVELOPMENT_TEAM = S38J3MCDE3;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -457,6 +644,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Time/Preview Content\"";
 				DEVELOPMENT_TEAM = S38J3MCDE3;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

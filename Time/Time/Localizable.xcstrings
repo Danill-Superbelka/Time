@@ -1,0 +1,62 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@," : {
+
+    },
+    "00:00:00" : {
+
+    },
+    "Add Screen" : {
+
+    },
+    "CreateNewStopwatch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add new stopwatch"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Создать новый секундомер"
+          }
+        }
+      }
+    },
+    "Hello, World!" : {
+
+    },
+    "Home Screen" : {
+
+    },
+    "StopWatchTitle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopwatch"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Секундомеры"
+          }
+        }
+      }
+    },
+    "Test" : {
+
+    },
+    "Xmm" : {
+
+    },
+    "Календарь" : {
+
+    }
+  },
+  "version" : "1.0"
+}
